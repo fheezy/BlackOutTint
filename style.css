@@ -1,1 +1,25 @@
 /* font*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Playfair+Display:wght@400;700&display=swap');
+
+*{
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #bc9667;
+    --second-color: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+}
+img {
+    width: 100%;
+}
+body {
+    color: var(--text-color);
+}
