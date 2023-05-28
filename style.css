@@ -21,5 +21,58 @@ img {
     width: 100%;
 }
 body {
-    color: var(--text-color);
+    color: rgba(240, 245, 242, 0.996);
+    /* color: var(--text-color); */
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;   
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: canter;
+    padding: 18px 100px;
+    transition: 0.5s linear;
+    background: rgb(14, 13, 13);
+}
+.logo img{
+    width: 100px;
+}
+.navbar {
+    display: flex;
+}
+.navbar a{
+    padding: 5px 17px;
+    color:hwb(120 7% 92%)
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar a:hover{
+    background: rgb(160, 47, 47);
+    border-radius: 0.2rem;
+    transition: 0.2s all linear;
+    cursor: grab;
+}
+.header-icon{
+    font-size: 22px;
+    cursor: grab;
+    z-index: 10000;
+    display: flex;
+    column-gap: 0.8rem;
+}
+/* .header-icon .bx{
+    color: var(--bg-color);
+}
+.header-icon .bx:hover{
+    color: var(--main-color); 
+} */
+#menu-icon{
+    color: rgb(250, 246, 247);
+    font-size: 24px;
+    z-index: 100001;
+    cursor: pointer;
+    display:none;
 }
