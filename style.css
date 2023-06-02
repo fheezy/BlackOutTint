@@ -17,6 +17,9 @@
     --text-color: #1b1b1b;
     --bg-color: #fff;
 }
+section {
+    padding: 50px 100px;
+}
 img {
     width: 100%;
 }
@@ -75,4 +78,9 @@ header{
     z-index: 100001;
     cursor: pointer;
     display:none;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: ;
 }
